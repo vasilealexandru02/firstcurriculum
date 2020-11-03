@@ -7,12 +7,10 @@ body{
   left:5%;
 }
 #me{
-  top: -9999px;
-  left: -9999px;
-  right: -9999px;
-  bottom: -9999px;
   margin: auto;
-  position: absolute;
+  position: relative;
+  right:3%;
+  top:20%;
 }
 /*central division*/
 .division{
@@ -55,6 +53,7 @@ body{
 .lista{
   display: inline-block;
 }
+/*LEFT GRID*/
 .centrado{
   display:grid;
 }
@@ -69,4 +68,13 @@ body{
   position: relative;
   left:30%;
   top:30%;
+}
+.imginstagram{
+  position:absolute;
+  left:20px;
+  bottom:20%;
+}
+.contenedor_foto{
+  grid-column:1;
+  grid-row:1;
 }
